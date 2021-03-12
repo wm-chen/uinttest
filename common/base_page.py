@@ -92,21 +92,24 @@ class BasePage(object):
         except Exception as e:
             logger.error('输入失败')
 
+    #进入表单
     def switch_to_frame_by_element(self, element_info):
-        element = self.find_element(element_info)
-        self.driver.switch_to.frame(element)
-
-    def switch_to_from_id_or_name(self, id_or_name):
-        self.driver.switch_to.frame(id_or_name)
-
-    def switch_to_frame(self, **element_dict):
-        if 'id' in element_dict.keys():
-            self.driver.switch_to.frame(element_dict['id'])
-        elif 'name' in element_dict.keys():
-            self.driver.switch_to.frame(element_dict['name'])
-        elif 'element' in element_dict.keys():
-            element = self.driver.find_element(element_dict['element'])
+        try:
+            element = self.find_element(element_info)
             self.driver.switch_to.frame(element)
+            logger.info('成功进入[%s]表单'%element_info['element_name'])
+        except Exception as e:
+            logger.error('进入表单失败，失败原因为%s'%e)
+
+    #返回上一层表单
+    def out_frame_parent(self):
+        self.driver.switch_to.parent_comtent()
+        logger.info('返回上一层表单')
+
+    #返回最外层表单
+    def out_frame_default(self):
+        self.driver.switch_to.default_content()
+        logger.info('返回最外层表单')
 
     #将页面滚动到底部
     def scroll_bottom_page(self):
