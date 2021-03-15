@@ -18,7 +18,7 @@ def zip_dir(dir_path, zip_path):
     zip.close()
 
 
-current_path = os.path.abspath(os.path.dirname(__file__))
+'''current_path = os.path.abspath(os.path.dirname(__file__))
 dir_path = os.path.join( current_path , '..' , 'report/自动化测试报告V1.1' )
 smtp_file_path = os.path.join( current_path , '..' , 'zip/自动化测试报告V1.1.zip' )
-zip_dir(dir_path, smtp_file_path)
+zip_dir(dir_path, smtp_file_path)'''

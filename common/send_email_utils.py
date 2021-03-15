@@ -33,7 +33,8 @@ class SendEmail():
             return self.__email_text()
 
     def mail_content_by_zip(self):
-        report_zip_path = self.smtp_file + '/../../zip/禅道自动化测试报告.zip'
+        dirname, file_path = os.path.split(self.smtp_file)
+        report_zip_path = self.smtp_file + '/../../zip/' + file_path + '.zip'
         zip_utils.zip_dir(self.smtp_file, report_zip_path)
         self.smtp_file = report_zip_path  # 压缩后修改为压缩路径
         msg = self.mail_content()
@@ -82,6 +83,6 @@ class SendEmail():
         smtp.quit()
 
 
-report_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '..', 'report/自动化测试报告V1.1')
-SendEmail('测试', '测试', report_path).send_zip_email()
+'''report_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), '..', 'report/自动化测试报告V1.1')
+SendEmail('测试', '测试', report_path).send_zip_email()'''
 

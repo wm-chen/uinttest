@@ -2164,3 +2164,191 @@ file:2021-03-11 15:05:24,931 - common.log_utils - INFO: 输入成功
 file:2021-03-11 15:05:24,945 - common.log_utils - INFO: [确认搜索]元素识别成功
 file:2021-03-11 15:05:25,093 - common.log_utils - INFO: 点击成功
 file:2021-03-11 15:05:25,097 - common.log_utils - INFO: 获取标题成功，标题为：项目概况 - 禅道
+file:2021-03-15 17:24:41,698 - common.log_utils - ERROR: 打开失败，原因为Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,508 - common.log_utils - ERROR: [用户输入框]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,511 - common.log_utils - ERROR: 输入失败
+file:2021-03-15 17:24:44,512 - common.log_utils - ERROR: [密码输入框]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,513 - common.log_utils - ERROR: 输入失败
+file:2021-03-15 17:24:44,514 - common.log_utils - ERROR: [登陆按钮]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,515 - common.log_utils - ERROR: 点击失败
+file:2021-03-15 17:24:44,522 - common.log_utils - ERROR: [用户菜单按钮]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,523 - common.log_utils - ERROR: 获取文本失败Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,532 - common.log_utils - ERROR: [测试页面按钮]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,533 - common.log_utils - ERROR: 点击失败
+file:2021-03-15 17:24:44,543 - common.log_utils - ERROR: [跳转bug按钮]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,544 - common.log_utils - ERROR: 点击失败
+file:2021-03-15 17:24:44,546 - common.log_utils - ERROR: [创建bug]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,547 - common.log_utils - ERROR: 点击失败
+file:2021-03-15 17:24:44,548 - common.log_utils - ERROR: [点击选择版本下拉框]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,549 - common.log_utils - ERROR: 点击失败
+file:2021-03-15 17:24:44,550 - common.log_utils - ERROR: [选择版本]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,551 - common.log_utils - ERROR: 选择下拉框失败，失败原因为Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,552 - common.log_utils - ERROR: [bug标题]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,554 - common.log_utils - ERROR: 输入失败
+file:2021-03-15 17:24:44,555 - common.log_utils - ERROR: 滚动页面到底部失败，原因为Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,556 - common.log_utils - ERROR: [保存]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,557 - common.log_utils - ERROR: 点击失败
+file:2021-03-15 17:24:44,558 - common.log_utils - ERROR: [最新一条用例标题]识别失败,失败原因Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:24:44,559 - common.log_utils - ERROR: 获取文本失败Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:29:31,239 - common.log_utils - ERROR: 打开失败，原因为Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:40:25,621 - common.log_utils - INFO: 打开的地址为http://192.168.9.172:82/zentao/user-login.html
+file:2021-03-15 17:40:25,763 - common.log_utils - INFO: [用户输入框]元素识别成功
+file:2021-03-15 17:40:25,850 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:40:25,859 - common.log_utils - INFO: [密码输入框]元素识别成功
+file:2021-03-15 17:40:25,914 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:40:25,923 - common.log_utils - INFO: [登陆按钮]元素识别成功
+file:2021-03-15 17:40:25,975 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:40:26,590 - common.log_utils - INFO: [用户菜单按钮]元素识别成功
+file:2021-03-15 17:40:26,599 - common.log_utils - INFO: 获取文本成功admin
+file:2021-03-15 17:40:26,626 - common.log_utils - INFO: [测试页面按钮]元素识别成功
+file:2021-03-15 17:40:27,632 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:40:27,665 - common.log_utils - INFO: [跳转bug按钮]元素识别成功
+file:2021-03-15 17:40:28,257 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:40:28,272 - common.log_utils - INFO: [创建bug]元素识别成功
+file:2021-03-15 17:40:29,636 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:40:29,645 - common.log_utils - INFO: [点击选择版本下拉框]元素识别成功
+file:2021-03-15 17:40:29,691 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:40:29,699 - common.log_utils - INFO: [选择版本]元素识别成功
+file:2021-03-15 17:40:29,744 - common.log_utils - INFO: 选择下拉框的内容为1.0.0
+file:2021-03-15 17:40:29,755 - common.log_utils - INFO: [bug标题]元素识别成功
+file:2021-03-15 17:40:29,802 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:40:29,807 - common.log_utils - INFO: 滚动页面到底部
+file:2021-03-15 17:40:29,815 - common.log_utils - INFO: [保存]元素识别成功
+file:2021-03-15 17:40:29,879 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:40:30,237 - common.log_utils - INFO: [最新一条用例标题]元素识别成功
+file:2021-03-15 17:40:30,253 - common.log_utils - INFO: 获取文本成功test08
+file:2021-03-15 17:41:32,947 - common.log_utils - INFO: 打开的地址为http://192.168.9.172:82/zentao/user-login.html
+file:2021-03-15 17:41:33,098 - common.log_utils - INFO: [用户输入框]元素识别成功
+file:2021-03-15 17:41:33,177 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:41:33,186 - common.log_utils - INFO: [密码输入框]元素识别成功
+file:2021-03-15 17:41:33,228 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:41:33,238 - common.log_utils - INFO: [登陆按钮]元素识别成功
+file:2021-03-15 17:41:33,294 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:41:33,713 - common.log_utils - INFO: [用户菜单按钮]元素识别成功
+file:2021-03-15 17:41:33,736 - common.log_utils - INFO: 获取文本成功admin
+file:2021-03-15 17:41:33,778 - common.log_utils - INFO: [测试页面按钮]元素识别成功
+file:2021-03-15 17:41:33,902 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:41:33,937 - common.log_utils - INFO: [跳转bug按钮]元素识别成功
+file:2021-03-15 17:41:34,195 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:41:34,208 - common.log_utils - INFO: [创建bug]元素识别成功
+file:2021-03-15 17:41:34,578 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:41:34,588 - common.log_utils - INFO: [点击选择版本下拉框]元素识别成功
+file:2021-03-15 17:41:34,652 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:41:34,660 - common.log_utils - INFO: [选择版本]元素识别成功
+file:2021-03-15 17:41:34,714 - common.log_utils - INFO: 选择下拉框的内容为1.0.0
+file:2021-03-15 17:41:34,732 - common.log_utils - INFO: [bug标题]元素识别成功
+file:2021-03-15 17:41:34,791 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:41:34,795 - common.log_utils - INFO: 滚动页面到底部
+file:2021-03-15 17:41:34,804 - common.log_utils - INFO: [保存]元素识别成功
+file:2021-03-15 17:41:34,872 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:41:35,076 - common.log_utils - INFO: [最新一条用例标题]元素识别成功
+file:2021-03-15 17:41:35,087 - common.log_utils - INFO: 获取文本成功test08
+file:2021-03-15 17:42:13,223 - common.log_utils - INFO: 打开的地址为http://192.168.9.172:82/zentao/user-login.html
+file:2021-03-15 17:42:13,366 - common.log_utils - INFO: [用户输入框]元素识别成功
+file:2021-03-15 17:42:13,416 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:42:13,424 - common.log_utils - INFO: [密码输入框]元素识别成功
+file:2021-03-15 17:42:13,463 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:42:13,494 - common.log_utils - INFO: [登陆按钮]元素识别成功
+file:2021-03-15 17:42:13,549 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:42:13,802 - common.log_utils - INFO: [用户菜单按钮]元素识别成功
+file:2021-03-15 17:42:13,815 - common.log_utils - INFO: 获取文本成功admin
+file:2021-03-15 17:42:13,868 - common.log_utils - INFO: [测试页面按钮]元素识别成功
+file:2021-03-15 17:42:14,020 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:42:14,047 - common.log_utils - INFO: [跳转bug按钮]元素识别成功
+file:2021-03-15 17:42:14,273 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:42:14,294 - common.log_utils - INFO: [创建bug]元素识别成功
+file:2021-03-15 17:42:14,642 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:42:14,651 - common.log_utils - INFO: [点击选择版本下拉框]元素识别成功
+file:2021-03-15 17:42:14,703 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:42:14,713 - common.log_utils - INFO: [选择版本]元素识别成功
+file:2021-03-15 17:42:14,767 - common.log_utils - INFO: 选择下拉框的内容为1.0.0
+file:2021-03-15 17:42:14,775 - common.log_utils - INFO: [bug标题]元素识别成功
+file:2021-03-15 17:42:14,826 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:42:14,830 - common.log_utils - INFO: 滚动页面到底部
+file:2021-03-15 17:42:14,849 - common.log_utils - INFO: [保存]元素识别成功
+file:2021-03-15 17:42:14,915 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:42:15,506 - common.log_utils - ERROR: [最新一条用例标题]识别失败,失败原因Alert Text: 已有相同标题的Bug
+Message: unexpected alert open: {Alert text : 已有相同标题的Bug}
+  (Session info: chrome=89.0.4389.82)
+
+file:2021-03-15 17:42:16,224 - common.log_utils - ERROR: 获取文本失败'NoneType' object has no attribute 'text'
+file:2021-03-15 17:48:30,705 - common.log_utils - INFO: 打开的地址为http://192.168.9.172:82/zentao/user-login.html
+file:2021-03-15 17:48:35,675 - common.log_utils - INFO: [用户输入框]元素识别成功
+file:2021-03-15 17:48:35,730 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:48:35,737 - common.log_utils - INFO: [密码输入框]元素识别成功
+file:2021-03-15 17:48:35,779 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:48:35,787 - common.log_utils - INFO: [登陆按钮]元素识别成功
+file:2021-03-15 17:48:35,838 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:48:36,097 - common.log_utils - INFO: [用户菜单按钮]元素识别成功
+file:2021-03-15 17:48:36,108 - common.log_utils - INFO: 获取文本成功admin
+file:2021-03-15 17:48:36,137 - common.log_utils - INFO: [测试页面按钮]元素识别成功
+file:2021-03-15 17:48:36,306 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:48:36,338 - common.log_utils - INFO: [跳转bug按钮]元素识别成功
+file:2021-03-15 17:48:36,568 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:48:36,586 - common.log_utils - INFO: [创建bug]元素识别成功
+file:2021-03-15 17:48:36,946 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:48:36,956 - common.log_utils - INFO: [点击选择版本下拉框]元素识别成功
+file:2021-03-15 17:48:37,010 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:48:37,022 - common.log_utils - INFO: [选择版本]元素识别成功
+file:2021-03-15 17:48:37,074 - common.log_utils - INFO: 选择下拉框的内容为1.0.0
+file:2021-03-15 17:48:37,084 - common.log_utils - INFO: [bug标题]元素识别成功
+file:2021-03-15 17:48:37,142 - common.log_utils - INFO: 输入成功
+file:2021-03-15 17:48:37,150 - common.log_utils - INFO: 滚动页面到底部
+file:2021-03-15 17:48:37,158 - common.log_utils - INFO: [保存]元素识别成功
+file:2021-03-15 17:48:37,221 - common.log_utils - INFO: 点击成功
+file:2021-03-15 17:48:37,435 - common.log_utils - INFO: [最新一条用例标题]元素识别成功
+file:2021-03-15 17:48:37,445 - common.log_utils - INFO: 获取文本成功test08

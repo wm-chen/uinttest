@@ -8,6 +8,7 @@ from common import HTMLTestReportCN
 from common.config_utils import local_config
 import os
 import unittest
+from common.send_email_utils import SendEmail
 
 current_path = os.path.abspath(os.path.dirname(__file__))
 case_path = os.path.join(current_path, '..', local_config.get_case_path)
@@ -25,7 +26,7 @@ class RunAllCases():
 
     def run(self):
         discover = unittest.defaultTestLoader.discover(
-            start_dir=self.test_case_path, pattern='main_case.py', top_level_dir=self.test_case_path)
+            start_dir=self.test_case_path, pattern='qa_case.py', top_level_dir=self.test_case_path)
         all_suite = unittest.TestSuite()
         all_suite.addTest(discover)
         report_dir = HTMLTestReportCN.ReportDirectory(self.report_path)
@@ -41,6 +42,10 @@ class RunAllCases():
         fp.close()
         return dir_path
 
+    def run_and_send_zip_email(self, subject, body):
+        report_path = self.run()
+        SendEmail(subject, body, report_path).send_zip_email()
+
 
 if __name__ == '__main__':
-    RunAllCases().run()
+    path = RunAllCases().run_and_send_zip_email('测试', '测试')
