@@ -31,5 +31,5 @@ class TestData(object):
 
 
 if __name__ == '__main__':
-    tt = TestData(local_config.get_test_case_path, 'qa_test').get_test_data()
-    print(type(tt['test_submit_bug']['test_para']['version']))
+    tt = TestData(local_config.get_test_case_path, 'login_test').get_test_data()
+    print(tt)
