@@ -2352,3 +2352,8 @@ file:2021-03-15 17:48:37,158 - common.log_utils - INFO: [保存]元素识别成�
 file:2021-03-15 17:48:37,221 - common.log_utils - INFO: 点击成功
 file:2021-03-15 17:48:37,435 - common.log_utils - INFO: [最新一条用例标题]元素识别成功
 file:2021-03-15 17:48:37,445 - common.log_utils - INFO: 获取文本成功test08
+file:2021-03-15 17:51:35,993 - common.log_utils - ERROR: 打开失败，原因为Message: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=89.0.4389.82)
+
