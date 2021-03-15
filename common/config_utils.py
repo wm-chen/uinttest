@@ -49,5 +49,26 @@ class ConfigUtils(object):
         value = self.cfg.get('default', 'element_path')
         return value
 
+    @property
+    def get_smtp_server(self):
+        value = self.cfg.get('email', 'smtp_server')
+        return value
+
+    @property
+    def get_smtp_sender(self):
+        value = self.cfg.get('email', 'smtp_sender')
+        return value
+
+    @property
+    def get_smtp_senderpassword(self):
+        value = self.cfg.get('email', 'smtp_senderpassword')
+        return value
+
+    @property
+    def get_smtp_receiver(self):
+        value = self.cfg.get('email', 'smtp_receiver')
+        return value
+
+
 local_config = ConfigUtils()
 
