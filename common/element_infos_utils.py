@@ -1,5 +1,4 @@
 import os
-
 from common.read_excel import ReadExcel
 
 
@@ -8,6 +7,7 @@ class ElementInfos(object):
     def __init__(self, excel_path, sheet_name):
         self.element = ReadExcel(excel_path,sheet_name).get_excel_data()
 
+    #将excel读取出来的列表装换成字典  【 】➡️  { }
     def get_element_info(self):
         element_infos = {}
         for i in range(len(self.element)):

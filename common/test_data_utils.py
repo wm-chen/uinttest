@@ -21,6 +21,7 @@ class TestData(object):
             get_test_data['is_not'] = True if self.test_data[i][3].__eq__('是') else False
             get_test_data['export'] = self.test_data[i][4]
             parameter = {}
+            #根据第i行对应的列数往   parameter字典中
             for j in range(5, len(self.test_data[i])):
                 if self.test_data[i][j].__contains__('=') and len(self.test_data[i][j]) > 2:
                     parameter_info = self.test_data[i][j].split('=')
@@ -31,5 +32,5 @@ class TestData(object):
 
 
 if __name__ == '__main__':
-    tt = TestData(local_config.get_test_case_path, 'login_test').get_test_data()
+    tt = TestData(local_config.get_test_case_path, 'product_test').get_test_data()
     print(tt)

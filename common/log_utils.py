@@ -1,8 +1,10 @@
 import os
 import logging
+import time
 
 current_path=os.path.dirname(__file__)
-log_path=os.path.join(current_path,'../log/test.log')
+date = time.strftime("%Y-%m-%d", time.localtime())
+log_path=os.path.join(current_path,'../log/%s-test.log'%date)
 
 class LogUtils():
     def __init__(self,log_path=log_path):
@@ -20,8 +22,11 @@ class LogUtils():
     def error(self, message):
         self.logger.error(message)
 
+
 # #优化日志，添加一个logger对象
-logger=LogUtils()
+logger = LogUtils()
+
 
 if __name__ == '__main__':
-    logger = LogUtils()
+    logger = time.strftime("%Y-%m-%d", time.localtime())
+    print(logger)

@@ -3,12 +3,10 @@
 # base_selenium.py
 # 2021/3/6 3:04 下午
 # desc:
-import time
 import unittest
 from common.base_page import BasePage
 from common.config_utils import local_config
 from common.set_driver import Browser
-from selenium import webdriver
 
 
 class BaseSelenium(unittest.TestCase):
@@ -30,7 +28,7 @@ class BaseSelenium(unittest.TestCase):
 
     def tearDown(self):
         err = self._outcome.errors  #断言错误判断
-        for test,exc_info in err:
+        for test, exc_info in err:
             if exc_info:
                 self.base_page.wait()
                 self.base_page.screentshot_as_file()

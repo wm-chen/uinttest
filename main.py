@@ -4,6 +4,8 @@
 # 2021/3/23 5:38 下午
 # desc:
 
-import sys
+from run.run_all_case import RunAllCases
 
-print(sys.path)
+
+if __name__ == '__main__':
+    RunAllCases().run()

@@ -6,7 +6,7 @@
 from element_infos.qa_page import QaPage
 
 
-class QaAction():
+class QaAction:
 
     def __init__(self, driver):
         self.qa_page = QaPage(driver)

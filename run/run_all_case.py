@@ -16,7 +16,7 @@ report_path = os.path.join(current_path, '..', local_config.get_report_path)\
 
 
 
-class RunAllCases():
+class RunAllCases:
 
     def __init__(self):
         self.test_case_path = case_path
@@ -26,14 +26,14 @@ class RunAllCases():
 
     def run(self):
         discover = unittest.defaultTestLoader.discover(
-            start_dir=self.test_case_path, pattern='qa_case.py', top_level_dir=self.test_case_path)
+            start_dir=self.test_case_path, pattern='product_case.py', top_level_dir=self.test_case_path)
         all_suite = unittest.TestSuite()
         all_suite.addTest(discover)
         report_dir = HTMLTestReportCN.ReportDirectory(self.report_path)
         report_dir.create_dir(self.title)
         dir_path = HTMLTestReportCN.GlobalMsg.get_value('dir_path')
-        report_path = HTMLTestReportCN.GlobalMsg.get_value('report_path')
-        fp = open(report_path, 'wb')
+        report_pa = HTMLTestReportCN.GlobalMsg.get_value('report_path')
+        fp = open(report_pa, 'wb')
         runner = HTMLTestReportCN.HTMLTestRunner(stream=fp,
                                                  title=self.title,
                                                  description=self.description,
@@ -43,9 +43,9 @@ class RunAllCases():
         return dir_path
 
     def run_and_send_zip_email(self, subject, body):
-        report_path = self.run()
-        SendEmail(subject, body, report_path).send_zip_email()
+        smtp_path = self.run()
+        SendEmail(subject, body, smtp_path).send_zip_email()
 
 
 if __name__ == '__main__':
-    path = RunAllCases().run_and_send_zip_email('测试', '测试')
+    RunAllCases().run()

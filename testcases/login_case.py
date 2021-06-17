@@ -34,3 +34,15 @@ class LoginCase(BaseSelenium):
 
 if __name__ == '__main__':
     unittest.main()
+
+'''class Test1(unittest.TestCase):
+    testdata = TestData(local_config.get_test_case_path, 'login_test').get_test_data()
+    test_data = [testdata['test_login_success'], testdata['test_login_fail']]
+    def test_01(self):
+        for i in self.test_data:
+            self.subTest(i = i )
+            print(i)
+
+        
+if __name__ == '__main__':
+    Test1().test_01()'''
